@@ -1,2 +1,2 @@
 #!/bin/bash
-print("welcome to python") "$PYFILE"
+python "$PYFILE"
