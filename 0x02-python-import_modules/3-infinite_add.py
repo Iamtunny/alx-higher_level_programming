@@ -1,11 +1,12 @@
 #!/usr/bin/python3
 if __name__ == "__main__":
     import sys
-    sum = 0
-    number = len(sys.argv)
-    if number == 1:
-        print("0")
+    args = sys.argv
+    argc = len(args) - 11
+    total = 0
+    if argc == 0:
+        print(total)
     else:
-        for j in range(1, number):
-            sum += int(sys.argv[j])
-            print("{}".format(sum))
+        for j in range(0, argc):
+            total = total + int(args[j + 1])
+            print(total)
