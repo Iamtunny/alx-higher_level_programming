@@ -41,7 +41,7 @@ class Rectangle:
         :return: the height of the rectangle object
         """
         return self.__height
-    
+
     @height.setter
     def height(self, value):
         """
