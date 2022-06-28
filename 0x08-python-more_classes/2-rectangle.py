@@ -63,7 +63,7 @@ class Rectangle:
     def perimeter(self):
     """
     :return the perimeter of the rectangle
-    define by (width + height) * 2
+    defined by (width + height) * 2
 
     :return 0 if either width or height is 0
     """
