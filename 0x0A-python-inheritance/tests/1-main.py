@@ -10,7 +10,3 @@ my_list.append(5)
 print(my_list)
 my_list.print_sorted()
 print(my_list)
-
-if __name__ == "__main__":
-    import doctest
-    doctest.testfile("1-my_list.txt")
