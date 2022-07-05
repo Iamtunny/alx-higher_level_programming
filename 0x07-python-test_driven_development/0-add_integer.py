@@ -1,5 +1,4 @@
 #!/usr/bin/python3
-#0-add_integer.py
 """This function describes the addition of two integers"""
 
 
