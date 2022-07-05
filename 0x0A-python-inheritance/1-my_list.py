@@ -13,3 +13,7 @@ class MyList(list):
     def print_sorted(self):
         """prints the sorted list"""
         print(sorted(self))
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod()
